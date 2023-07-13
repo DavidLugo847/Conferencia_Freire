@@ -318,6 +318,17 @@
 h2{
     margin: 0 auto;
 }
+.sub1{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    font-family: sans-serif;
+}
+.sub1 div{
+margin: 0.2em;
+text-align: center;
+}
 
 #text1 li ul{
     font-size: 2em;
