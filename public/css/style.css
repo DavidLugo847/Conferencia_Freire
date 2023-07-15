@@ -540,12 +540,17 @@ text-align: center;
 
 
 .text-box {
-     width: 100%;
+    width: 95%;
      position: fixed;
      font-family: sans-serif;
+     margin: 0;
+     left:0;
+     right:0;
+
+     }
 }
 .text-box a{
-    width: 100%;
+    width: auto;
     line-height: 2em;
     font-size: 1em;
     font-family: sans-serif;
@@ -556,17 +561,20 @@ text-align: center;
     animation-fill-mode: backwards;
 }
 .btn::after {
-    width: 100%;
+    margin: 0;
+    width: 95%;
     border-radius: 10px;
     
 }
 .btn:link, .btn:visited {
+    margin: 0;
     border-radius: 10px;
-    width: 100%;
+    width: 95%;
 
     
 }
 .btn-white {
+    margin: 0;
     background-color: rgba(165, 42, 42, 0.496);
     color: #ffffff;
     height: 30px;
