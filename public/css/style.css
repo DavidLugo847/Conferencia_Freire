@@ -102,7 +102,7 @@
     padding: 0.5em;
 }
 .dates-conf{
-   width: 98;
+   width: 98%;
    height: 100px;
    margin: 2em;
    display: grid;
@@ -393,7 +393,7 @@ text-align: center;
         width: 100%;
         height: 110px;
         display: grid;
-        grid-template: "logo cont" /750px 1fr;
+        grid-template: "logo cont" /740px;
         border-bottom: 1px solid rgba(128, 128, 128, 0.467);
     }
     .logo-nav {
@@ -408,33 +408,10 @@ text-align: center;
     .img-top {
         width: 100%;
         margin-top: 1em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .text-box {
-        margin-left: 44vw;
-         margin-top: 42vh;
-         width: 300px;
-         position: fixed;
-         right: 10em;
-         bottom: 5em;
-         font-family: sans-serif;
-    }
-    .text1{
-        width:  100%;
         display: block;
     }
-    .text1 li ul{
-        font-size: 1.5em;
-        margin: 30px 50px 0 50px;
-        color: rgb(60, 60, 60);
-    
-    }
-    .text1 p{
-        font-size: 2em;
-        margin: 80px 50px 0 50px;
-        color: rgb(60, 60, 60);
+    .img-top img {
+        width: 1000px;
     }
     .cont-meets{
     width: 1000px;
@@ -464,4 +441,83 @@ text-align: center;
         font-size: 2em;
         
     }
+    .dates-conf{
+        flex-direction: column;
+    }
+    .dates-conf{
+   width: 1000px;
+   height: 200px;
+   display: grid;
+   grid-template: "mails" 1fr "dates" 1fr;
+}
+.dat-1 p{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color:rgb(1, 1, 52);
+    margin: 0.3em;
+}
+.dat-2{
+    grid-area: dates;
+    background: rgb(1, 1, 52);
+    display: flex;
+    flex-direction: row;
+    
+}
+.sub{
+    
+    width: 340px;
+    height: 210px;
+    border: none;
+    font-size: 1.5em;
+    align-items: center;
+    
+}
+.sub-t{
+    margin: 0;
+    width: 340px;
+    height: 60px;
+   
+    
+}
+.sub-t2{
+    
+    width: 300px;
+    height: 80px;
+}
+.text-box {
+    margin-left: 44vw;
+     margin-top: 42vh;
+     width: 300px;
+     position: fixed;
+     right: 10em;
+     bottom: 10em;
+     font-family: sans-serif;
+}
+.text1{
+    width:  1000px;
+    display: block;
+    padding-bottom: 5em;
+    border-bottom: 1px solid gray;
+}
+.text1 h1{
+    margin-left: 1.5em;
+    font-size: 2.2em;
+}
+.text1 li ul{
+    font-size: 1.5em;
+    margin: 30px 50px 0 50px;
+    color: rgb(60, 60, 60);
+
+}
+.text1 p{
+    font-size: 2em;
+    margin: 80px 50px 80px 50px;
+    color: rgb(60, 60, 60);
+    
+}
+.objetives-title{
+    width: 800px;
+    display: block;
+    margin: 2em auto;
+}
 }
