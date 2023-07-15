@@ -546,6 +546,7 @@ text-align: center;
      margin: 0;
      left: 0;
      right:5em;
+     bottom: 3.7em;
 
      }
 
@@ -576,7 +577,7 @@ text-align: center;
 }
 .btn-white {
     margin: 0;
-    background-color: rgba(165, 42, 42, 0.496);
+    background-color: rgba(24, 181, 0, 0.614);
     color: #ffffff;
     height: 30px;
     
