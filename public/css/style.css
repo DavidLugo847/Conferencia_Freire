@@ -109,6 +109,18 @@
    grid-template: "mails dates" /400px 800px;
    justify-content: center;
 }
+.img-dates{
+    margin-top: 5em;
+    width: 100%;
+}
+.img-dates div{
+    margin: 0 auto;
+    width:60%;
+    height: 1065px;
+    background-image: url(../img/fechas.png);
+    background-size:100%;
+}
+
 .dat-1{
     grid-area: mails;
     background: rgb(195, 195, 195);
@@ -160,6 +172,32 @@
     width: 266px;
     height: 40px;
 }
+
+
+
+.info-mod{
+    margin-top: 8em;
+    margin-left: 13em;
+    margin-right: 13em;
+    padding-bottom: 2em;
+    border-bottom: 1px gray solid;
+}
+.info-mod div h3{
+font-size: 3em;
+font-family: sans-serif;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+.info-mod div p{
+    font-family: sans-serif;
+    font-size: 1.5em;
+
+}
+.info-mod div p span{
+    font-weight: bold;
+    color: rgb(0, 0, 94);
+}
+
 
 /* REGISTER BUTTON */
 
@@ -330,7 +368,7 @@ margin: 0.2em;
 text-align: center;
 }
 
-.text1 li ul{
+.text1 ul li{
     font-size: 2em;
     margin: 30px 200px 0 200px;
     color: rgb(60, 60, 60);
@@ -537,6 +575,39 @@ margin: 0.2em;
 text-align: center;
 }
 
+.info-mod{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.info-mod div h3{
+font-size: 1.5em;
+font-family: sans-serif;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+.info-mod div p{
+    font-family: sans-serif;
+
+}
+.info-mod div p span{
+    font-weight: bold;
+    color: rgb(0, 0, 94);
+}
+
+.img-dates{
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+    width: 100%;
+}
+.img-dates div{
+    margin: 0 auto;
+    width:90%;
+    height: 505px;
+    background-image: url(../img/fechas.png);
+    background-size: 100%;
+}
+
+
 
 
 .text-box {
@@ -647,7 +718,7 @@ text-align: center;
 }
 .ejes-tematicos-cont div{
     font-size: 1em;
-    margin: 10px 20px 50px 20px;
+    margin: 10px 20px 20px 20px;
     color: rgb(60, 60, 60);
 }
 .ejes-tematicos-cont div p span{
